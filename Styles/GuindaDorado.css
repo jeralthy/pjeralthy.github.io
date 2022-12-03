@@ -1,0 +1,51 @@
+﻿.guinda {
+    /*background-color: #6c757d !important*/
+    background-color: #691C32 !important;
+}
+
+.dorado {
+    /*background-color: #17a2b8 !important*/
+    background-color: #BC955C !important;
+}
+
+.borde-dorado {
+    border-color: #BC955C !important;
+}
+
+.borde-guinda {
+    border-color: #691C32 !important;
+}
+.texto-guinda, .texto-guinda-hover:hover {
+    color: #691C32 !important;
+}
+.w3-margin-top2 {
+    margin-top: 200px !important;
+}
+
+.dorado-claro {
+    /*background-color: #17a2b8 !important*/
+    background-color: #DDc9A3 !important;
+}
+
+.gris-claro {
+    /*background-color: #17a2b8 !important*/
+    background-color: #98989A !important;
+}
+.guinda-claro {
+    /*background-color: #6c757d !important*/
+    background-color: #9F2241 !important;
+}
+
+.Vbandera{
+    /*background-color: #6c757d !important*/
+    background-color: #235B4E !important;
+    width:100px;
+    height: 300px;
+}
+
+.w3-verdeCIAC, .w3-hover-green:hover {
+    /*color: #fff !important;*/
+    /*background-color: #4CAF50 !important*/
+    /*background-color: #00b140 !important*/
+    background-color: #235B4E !important
+}

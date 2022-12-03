@@ -1,0 +1,547 @@
+﻿BODY {
+	COLOR: #000000; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 2px;
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+A {
+	FONT-FAMILY: sans-serif; FONT-SIZE: 10px;
+	text-decoration: none;
+	color: #000000;
+}
+A:link {
+	text-decoration: none;
+	color:black;
+}
+A:visited {
+text-decoration: none;
+color: #000000;
+}
+
+A:active {
+	text-decoration: none;
+	color: #000000;
+}
+A:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+INPUT {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+OPTION {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+SELECT {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+TEXTAREA {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+TABLE {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px;
+	border-style:none; border:0;
+	border-width:inherit;
+	
+}
+TD {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+TR {
+	FONT-FAMILY: tahoma,sans-serif; FONT-SIZE: 10px
+}
+SELECT {
+	PADDING-LEFT: 2px
+}
+OPTION {
+	PADDING-LEFT: 2px
+}
+TEXTAREA {
+	PADDING-LEFT: 2px
+}
+TABLE {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin-left: 0px;
+}
+.A {
+	BORDER-BOTTOM: #99CC99 1px solid; 
+	BORDER-LEFT: #99CC99 1px solid; 
+	BORDER-RIGHT: #99CC99 1px solid; 
+	BORDER-TOP: #99CC99 1px solid; 
+	HEIGHT: 15px; 
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none
+}
+
+.A_mas {
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: none;
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 20px;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	border-top-color: inherit;
+	border-right-color: #99CC99;
+	border-bottom-color: #99CC99;
+	border-left-color: #99CC99;
+	border-width: medium 1px 1px 1px;
+}
+
+
+.A_masColor {
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: none;
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	background-color: #EBF1EE;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+}
+
+.BotonesLink{
+	COLOR: #FFFFFF; 
+}
+
+.sininicio{
+	font-family: tahoma,sans-serif;
+	text-align:center;
+	font-size:10px;
+	color:#FF0000;
+	font-weight:bold;
+	BORDER-BOTTOM: #9CAAAD 1px solid; 
+}
+.boton
+{
+	border-right: 1px solid;
+    border-top: 1px solid; 
+    font-weight: bold; 
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    font-style: normal; 
+    font-variant: small-caps;
+    width:156px;
+    }
+.enproceso{
+	font-family: tahoma,sans-serif;
+	text-align:center;
+	font-size:10px;
+	color:#336600;
+	font-weight:bold;
+	BORDER-BOTTOM: #9CAAAD 1px solid; 
+}
+
+.terminado{
+	font-family: tahoma,sans-serif;
+	text-align:center;
+	font-size:10px;
+	color: #330066;
+	font-weight:bold;
+	BORDER-BOTTOM: #9CAAAD 1px solid; 
+}
+
+.noautorizado{
+	font-family: tahoma,sans-serif;
+	text-align:center;
+	font-size:12px;
+	color: #FF9900;
+	font-weight:bold;
+	BORDER-BOTTOM: #9CAAAD 1px solid; 
+}
+
+
+.ContornoTablaDatos {
+	BORDER-BOTTOM: #C9E4C9 1px solid;
+	BORDER-LEFT: #C9E4C9 1px solid; 
+	BORDER-RIGHT: #C9E4C9 1px solid; 
+	BORDER-TOP: #C9E4C9 1px solid; 
+	HEIGHT: 15px; 
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none
+}
+
+.DetalleTablaItems {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 15px; 
+	color:#555555; 
+	font-size: 11px;
+	font-weight:bold; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-RIGHT: 2px; 
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none
+}
+
+.DetalleTabla {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 15px;
+	font-size:14px;
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none
+}
+
+.DetalleTablaColor {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	font-size:14px;
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	background-color:#F5FCEF; 	
+}
+
+.DetalleTablaFicha {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 15px; 
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	text-align: center
+
+}
+
+.DetalleTablaSel {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 15px; 
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	background-color:#FFFFDD;
+	text-align:center
+}
+
+.DetalleTablaSeleccionado {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 15px; 
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	background-color:#FFFFDD
+}
+
+.DetalleTablaProg {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: none; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	font-size:10px;
+	HEIGHT: 30px; 
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none
+}
+.DetalleTablaProgDom {
+	BORDER-BOTTOM: #C9E4C9 1px solid; 
+	BORDER-LEFT: #C9E4C9 1px solid; 
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 15px; 
+	text-align: center;
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	background-color:#EE9386
+}
+
+.RowStyle {
+	background-color:#EEF7BB;
+}
+.AlternatingRowStyle {
+	background-color:#FFFFFF;
+}
+
+.HeaderStyle {
+	BACKGROUND-IMAGE: url(http://sintevweb/imageshared/bgcolor.gif);
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: #99CC99 1px solid;
+	BORDER-RIGHT: #99CC99 1px solid;
+	BORDER-TOP: #99CC99 1px solid;
+	HEIGHT: 20px;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	color:black;
+	}
+	
+.HeaderTableContents{
+	background-color:#4F6228;	
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: #99CC99 1px solid;
+	BORDER-RIGHT: #99CC99 1px solid;
+	BORDER-TOP: #99CC99 1px solid;
+	HEIGHT: 18px;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	color:#FFFFFF;
+}
+
+.RowStyleContent{
+	background-color:#D7E4BC;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.AlternatingRowStyleContent{
+	background-color:#EAF1DD;
+	color:#000000;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.watermark
+{
+	background: #FFAAFF;
+}
+.Water
+{
+	color:Gray
+}
+
+
+.popupControl 
+{
+	background-color: #AAD4FF;
+	position: absolute;
+	visibility: hidden;
+	border-style: solid;
+	border-color: Black;
+	border-width: 2px;
+}
+.modalBackground 
+{
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup 
+{
+	background-color:#FFFFDD;
+	border-width: 3px;
+	border-style: solid;
+	border-color:Gray;
+	padding: 3px;
+	width:600px;
+}
+
+.HeaderTableGrid{
+	background-color:#4F6228;	
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: #99CC99 1px solid;
+	BORDER-RIGHT: #99CC99 1px solid;
+	BORDER-TOP: #99CC99 1px solid;
+	HEIGHT: 18px;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	color:#FFFFFF;
+	text-align:center;
+	
+}
+
+.RowStyleContentGrid{
+	background-color:#D7E4BC;
+	color:#000000;
+	text-align:center;
+}
+.AlternatingRowStyleContentGrid{
+	background-color:#EAF1DD;
+	color:#000000;
+	text-align:center;
+}
+
+.hlExtender {
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: none;
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 20px;
+	background-color: #EBF1EE;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	CURSOR:hand;
+	vertical-align:text-bottom;
+}
+
+.A_masColorAvisos {
+	BORDER-BOTTOM: #99CC99 1px solid;
+	BORDER-LEFT: none;
+	BORDER-RIGHT: none;
+	BORDER-TOP: none;
+	HEIGHT: 18px;
+	background-color: #5FAE88;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+}
+
+.ajax__calendar_container {padding:4px;position:absolute;cursor:default;width:170px;font-size:11px;text-align:center;font-family:tahoma,verdana,helvetica;}
+.ajax__calendar_body {height:139px;width:170px;position:relative;overflow:hidden;margin:auto;}
+.ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;}
+.ajax__calendar_container TABLE {font-size:11px;}
+.ajax__calendar_header {height:20px;width:100%;}
+.ajax__calendar_prev {cursor:pointer;width:15px;height:15px;float:left;background-repeat:no-repeat;background-position:50% 50%;background-image:url(<%=WebResource("AjaxControlToolkit.Calendar.arrow-left.gif")%>);}
+.ajax__calendar_next {cursor:pointer;width:15px;height:15px;float:right;background-repeat:no-repeat;background-position:50% 50%;background-image:url(<%=WebResource("AjaxControlToolkit.Calendar.arrow-right.gif")%>);}
+.ajax__calendar_title {cursor:pointer;font-weight:bold;}
+.ajax__calendar_footer {height:15px;}
+.ajax__calendar_today {cursor:pointer;padding-top:3px;}
+.ajax__calendar_dayname {height:17px;width:17px;text-align:right;padding:0 2px;}
+.ajax__calendar_day {height:17px;width:18px;text-align:right;padding:0 2px;cursor:pointer;}
+.ajax__calendar_month {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.ajax__calendar_year {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+
+.MyCalendar .ajax__calendar_container {border:1px solid #646464;background-color:#ffffff;color:#000000;}
+.MyCalendar .ajax__calendar_footer {border-top:1px solid #f5f5f5;}
+.MyCalendar .ajax__calendar_dayname {border-bottom:1px solid #f5f5f5;}
+.MyCalendar .ajax__calendar_day {border:1px solid #ffffff;}
+.MyCalendar .ajax__calendar_month {border:1px solid #ffffff;}
+.MyCalendar .ajax__calendar_year {border:1px solid #ffffff;}
+
+.MyCalendar .ajax__calendar_active .ajax__calendar_day {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.MyCalendar .ajax__calendar_active .ajax__calendar_month {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+
+.MyCalendar .ajax__calendar_other .ajax__calendar_day {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_title {color:#0066cc;}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_today {color:#0066cc;}
+
+.watermark {
+	background: #FFAAFF;
+}
+
+.popupControl {
+	background-color:#AAD4FF;
+	position:absolute;
+	visibility:hidden;
+	border-style:solid;
+	border-color: Black;
+	border-width: 2px;
+}
+
+.modalBackground {
+
+     background-color:Gray;
+    opacity: 0.5;
+    filter:Alpha(opacity=50);
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.sampleStyleA {
+	background-color:#FFF;
+}
+
+.sampleStyleB {
+	background-color:#FFF;
+	font-family:monospace;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.sampleStyleC {
+	background-color:#ddffdd;
+	font-family:sans-serif;
+	font-size:10pt;
+	font-style:italic;
+}
+
+.sampleStyleD {
+	background-color:Blue;
+	color:White;
+	font-family:Arial;
+	font-size:10pt;
+}
+
+.RenglonA1
+{
+	 border-right: darkgray 1px solid;
+	 border-top: darkgray 1px solid;
+     border-left: darkgray 1px solid;
+     border-bottom: darkgray 1px solid;
+     background-color: lightgrey;
+     text-align: center;
+	}
+	
+	.RenglonA2
+	{
+		border-top-width: 1px; 
+		border-left-width: 1px;
+        border-left-color: darkgray; 
+        border-bottom-width: 1px; 
+        border-bottom-color: darkgray;
+        border-top-color: darkgray; 
+        background-color: #E9E9E9; 
+        text-align: left; 
+        border-right-width: 1px;
+        border-right-color: darkgray;
+                                            }
+.RenglonB1
+{
+	border-right: darkgray 1px solid; 
+	border-top: darkgray 1px solid;
+	border-left: darkgray 1px solid; 
+	border-bottom: darkgray 1px solid;
+    background-color: whitesmoke;
+    text-align: center;
+	}
+	
+	.RenglonB2
+	{
+		border-top-width: 1px; 
+		border-left-width: 1px;
+        border-left-color: darkgray; 
+        border-bottom-width: 1px; 
+        border-bottom-color: darkgray;
+        border-top-color: darkgray; 
+        background-color: whitesmoke;
+        text-align: left; 
+        border-right-width: 1px; 
+        border-right-color: darkgray";
+		}
+		

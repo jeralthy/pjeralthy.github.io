@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    margin: 100px 25px 0px 25px;
+    background-color: #691C32;
+}
+.menu nav ul li ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu nav ul{
+    margin: 0;
+    padding: 0;
+}
+.menu nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu nav ul li{
+    display: inline-block;
+}
+.menu .Ci a{
+    background-color: #ffff;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #691C32;
+    font-style: italic;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffff;
+    padding: 5px 28px;
+    display: block;
+
+}
+/* .menu a:hover{
+    background-color: #691C32;
+    color: #000;
+
+} */
+/* .menu .Ci a:hover{
+    background-color: #ffff;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff0048;
+} */
+.menu nav ul li ul a:hover{
+    background-color: #9f2241;
+    color: #000;
+}
+.menu nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu nav ul li ul{
+    position: absolute;
+    background-color: #691C32;
+}
+
+.menu nav ul li ul{
+    /* display: none; */
+    width: 180px;
+    /* background-color: #691C32; */
+}
+
+.menu nav ul li ul{
+display: none;
+}
+.menu nav ul li:hover > ul{
+    display: block;
+}
+
+/* ---------------------Menu 2-------------------------------- */
+.menu2{
+    margin: 0px 25px 10px 25px;
+    background-color: #BC955C;
+}
+.menu2 nav ul li ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu2 nav ul{
+    margin: 0;
+    padding: 0;
+}
+.menu2 nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu2 nav ul li{
+    display: inline-block;
+}
+.menu2 .Ar a{
+    background-color: #ffff;
+    color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #BC955C;
+    font-style: italic;
+
+}
+.menu2 a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffff;
+    padding: 5px 28px;
+    display: block;
+}
+.menu2 a:hover{
+    background-color: #BC955C;
+    color: #000;
+}
+.menu2 .Ar a:hover{
+    background-color: #ffff;
+    color: black;
+}
+.menu2 nav ul li ul a:hover{
+    background-color: #BC955C;
+    color: #000;
+}
+.menu2 nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu2 nav ul li ul{
+    position: absolute;
+    background-color: #BC955C;
+}
+.menu2 nav ul li ul{
+    /* display: none; */
+    width: 180px;
+}
+.menu2 nav ul li ul{
+display: none;
+}
+.menu2 nav ul li:hover > ul{
+    display: block;
+}
+
+/*----------------------- Seguimiento -----------------------------*/
+
+/*.formulario{
+    margin: 25px 250px 10px 250px;
+    box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.2);
+    height: 195px;
+}
+.formulario .titulo{
+    margin-bottom: 10px;
+}*/
+.titulo {
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #235B4E;
+    text-transform: uppercase;
+}
+
+.formulario button{
+    position: absolute;
+    margin: -31px 100px 100px 725px;
+    font-size: 15px;
+    background-color: #235B4E;
+    border: none;
+    width: 100px;
+    height: 24px;
+    border-radius: 50px;
+    transition: .2s all ease;
+    color: #ffff;
+    cursor: pointer;
+}
+.formulario button:hover{
+background-color: #10312B;
+}
+.formulario select{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.212) !important;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.formulario select:hover{
+    border: 1px solid #235b4ead !important;
+    font-weight: 500;
+}
+.formulario .fecha input{
+    border: 1px solid rgba(0, 0, 0, 0.212) !important;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.formulario .fecha input:hover{
+    border: 1px solid #235b4ead !important;
+    font-weight: 500;
+}
+.formulario .fecha2 input{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.212) !important;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.formulario .fecha2 input:hover{
+    border: 1px solid #235b4ead !important;
+    font-weight: 500;
+}
+.formulario .programa{
+    display: inline-block;
+    margin-top: 0px;
+    width: 230px;
+    height: 100px;
+    /* border: 1px solid #691C32; */
+    text-align: center;
+}
+.formulario .programa label{
+    margin: 40px 35px 0px;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #10312B;
+    font-weight: bolder;
+}
+.formulario .programa label:hover{
+    color: #235B4E;
+    font-weight: bolder;
+}
+.formulario .programa select{
+    margin: 10px 35px;
+    width: 190px !important;
+}
+/* --------------------------Formualrio Estatus------------------- */
+.formulario .estatus{
+    /* display: inline-block; */
+    float: right;
+    width: 230px;
+    height: 100px;
+    margin-right: 401px;
+    /* border: 1px solid #691C32; */
+    text-align: center;
+}
+.formulario .estatus label{
+    margin: 40px 35px 0px;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #10312B;
+    font-weight: bolder;
+}
+.formulario .estatus label:hover{
+    color: #235B4E;
+    font-weight: bolder;
+}
+.formulario .estatus select{
+    float: left;
+    margin: 10px 35px !important;
+    width: 110px !important;
+}
+/* --------------------------Formualrio Fecha------------------- */
+.formulario .fecha{
+    /* display: inline-block; */
+    position: absolute;
+    width: 290px;
+    height: 100px;
+    margin: -100px 20px 0px 406px;
+    /* margin-right: 150px; */
+    /* border: 1px solid #691C32; */
+    text-align: center;
+}
+.formulario .fecha2 input{
+    position: absolute;
+    margin: -31px 20px 0px 570px;
+    width: 120px !important;
+}
+.formulario .fecha  label{
+    margin: 10px 20px 40px 80px;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #10312B;
+    font-weight: bolder;
+}
+.formulario .fecha label:hover{
+    color: #235B4E;
+    font-weight: bolder;
+}
+.formulario .labels label:hover{
+    color: #235B4E;
+    font-weight: bolder;
+}
+.formulario .fecha input{
+    float: left;
+    margin: 0px 20px !important;
+    width: 120px !important;
+}
+.formulario .labels label{
+    position: absolute;
+    font-size: 15px;
+    color: #10312B;
+    font-weight: bolder;
+}
+.formulario .labels .de{
+    margin: -55px 470px;
+}
+
+.formulario .labels .a{
+    margin: -55px 620px;
+}
+.botones{
+    margin: 25px 500px 25px 500px;
+    box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.2);
+    height: 95px;
+}
+.botones .btn1{
+    margin: 20px 15px;
+    background-color: #98989A;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.botones .btn1:hover{
+    background-color: #6F7271;
+    transform: translateY(-7px);
+}
+.botones .btn2{
+    margin: 25px 15px;
+    background-color: #9f2241;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.botones .btn2:hover{
+    background-color: #691C32;
+    transform: translateY(7px);
+}
+.botones .btn3{
+    margin: 20px 15px;
+    background-color: #235B4E;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.botones .btn3:hover{
+    background-color: #10312B;
+    transform: translateY(-7px);
+}
+.botones2{
+    margin: 25px 500px 25px 500px;
+    box-shadow: 2px 5px 10px 10px rgba(0, 0, 0, 0.2);
+    height: 95px;
+}
+.botones2 .btn1{
+    margin: 20px 15px;
+    background-color: #10312B;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.botones2 .btn1:hover{
+    background-color: #235B4E;
+    transform: translateX(-7px);
+}
+.botones2 .btn2{
+    margin: 25px 15px;
+    background-color: #bc965cbe;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.botones2 .btn2:hover{
+    background-color: #BC955C;
+    transform: translateX(7px);
+}
+.botones2 .btn3{
+    margin: 20px 15px;
+    background-color: #235B4E;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.botones2 .btn3:hover{
+    background-color: #10312B;
+    transform: translateY(-7px);
+}

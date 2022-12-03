@@ -1,0 +1,358 @@
+﻿
+.chkBox {
+    height: 20px;
+    background-color: #DDD;
+}
+
+label{
+    color:#AAA
+}
+/* DDL */
+
+.MGD_ddlStyle {
+    /*padding: 2px;*/
+    HEIGHT: 1.5em;
+    font-size: 1.1em;
+    TEXT-DECORATION: none;
+    /*color: #333333;*/
+    background-color: #DDD;
+    display: inline-block;
+}
+
+    .MGD_ddlStyle option {
+        font-size: 1.1em;
+        /*color: #333333;*/
+    }
+
+
+
+.MGD_Textbox {
+    outline: none;
+    border-style: none;
+    background-color: #DDD;
+    height: 1.8em;
+    -moz-border-radius: .25em;
+    -webkit-border-radius: .25em;
+    border-radius: .25em;
+    font: normal 1.25em Sans-Serif;
+    position: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: .2em;
+    opacity: 0.7;
+    filter: Alpha(opacity=70);
+    /*line-height:30px;*/    
+    margin-right: 3px;
+}
+
+.MGD_TextboxMultiline {
+    outline: none;
+    border-style: none;
+    background-color: #EEE;    
+    -moz-border-radius: .25em;
+    -webkit-border-radius: .25em;
+    border-radius: .25em;
+    font: normal 1.25em Sans-Serif;
+    position: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: .2em;
+    opacity: 0.7;
+    filter: Alpha(opacity=70);
+    /*line-height:30px;*/
+    margin-right: 3px;
+}
+
+.MGD_Boton {
+    background: #2CA651;
+    height: 1.8em;
+    color: white;
+    width: auto;
+    border: none;
+    -o-border-radius: .4em;
+    -ms-border-radius: .4em;
+    -moz-border-radius: .4em;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    font: bold 1.25em Sans-Serif;
+    font-weight: bold; /*padding:8px 16px;*/
+    /*top:.6em;*/
+    display: inline-block;
+    zoom: 1;
+    /**display: inline;*/
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+    .MGD_Boton:hover {
+        background: #83B49B;
+        cursor: pointer;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.95;
+        filter: Alpha(opacity=90);
+        /*border-bottom-style:groove; border-width:1px;*/
+    }
+
+.MGD_BotonGuardar {
+    height: 1.8em;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #83B49B;
+    color: white;
+    -o-border-radius: .4em;
+    -ms-border-radius: .4em;
+    -moz-border-radius: .4em;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    font-weight: bold; /*padding:8px 16px;*/
+    /*top:.6em;*/
+    display: inline-block;
+    zoom: 1;
+    /**display: inline;*/
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    -webkit-transition: .5s;
+    transition: .5s;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 1.25em;
+    line-height: normal;
+    font-family: Sans-Serif;
+}
+
+    .MGD_BotonGuardar:hover {
+        background: #2CA651;
+    }
+
+.MGD_BotonAgregar {
+    background: #eab581;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border: none;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font: bold 14px Sans-Serif;
+    font-weight: bold; /*padding:8px 16px;*/
+    top: 10px;
+    display: inline-block;
+    zoom: 1;
+    /**display: inline;*/
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+    .MGD_BotonAgregar:hover {
+        background: #da7b1f;
+    }
+
+.MGD_BotonCancelar {
+    background: #F97F87;
+    height: 1.8em;
+    color: white;
+    width: auto;
+    border: none;
+    -o-border-radius: .4em;
+    -ms-border-radius: .4em;
+    -moz-border-radius: .4em;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    font: bold 1.25em Sans-Serif;
+    font-weight: bold;
+    display: inline-block;
+    zoom: 1;
+    /**display: inline;*/
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+    .MGD_BotonCancelar:hover {
+        background: #F84652;
+    }
+
+.MGD_BotonAcepta {
+    background: #9ebbd8;
+    height: 1.8em;
+    color: white;
+    width: auto;
+    border: none;
+    -o-border-radius: .4em;
+    -ms-border-radius: .4em;
+    -moz-border-radius: .4em;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    font: bold 1.25em Sans-Serif;
+    font-weight: bold; /*padding:8px 16px;*/
+    /*top:.6em;*/
+    display: inline-block;
+    zoom: 1;
+    /**display: inline;*/
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+    .MGD_BotonAcepta:hover {
+        background: #5884AA;
+    }
+
+.MGD_BotonBuscar {
+    background-image: url(../imagenes/icon-Buscar.png);
+    background-color: #5884f3;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 1.8em;
+    color: white;
+    width: auto;
+    border: none;
+    -o-border-radius: .4em;
+    -ms-border-radius: .4em;
+    -moz-border-radius: .4em;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    font: bold 1.25em Sans-Serif;
+    font-weight: bold; /*padding:8px 16px;*/
+    /*top:.6em;*/
+    display: inline-block;
+    zoom: 1;
+    /**display: inline;*/
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+
+    .MGD_BotonBuscar:hover {
+        cursor: pointer;
+        background-image: url(../imagenes/icon-Buscar.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.95;
+        filter: Alpha(opacity=90);
+        /*border-bottom-style:groove; border-width:1px;*/
+    }
+
+
+
+/* estilos de grid */
+
+.MGD_GridView {
+    font: normal 1em Sans-Serif;
+    border: .1em .1em .1em .1em solid;
+}
+
+    .MGD_GridView th {
+        font: normal 1.25em Sans-Serif;
+        border: none;
+        background-color: #737373;
+        color: #FFF;
+        height: 2em;
+    }
+
+        .MGD_GridView th a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+            .MGD_GridView th a:hover {
+                text-decoration: underline;
+            }
+
+    .MGD_GridView tr {
+        font: normal 1.1em Sans-Serif;
+        border: none;
+        background-color: #F3F3F3;
+        vertical-align: central;
+        height: 2em;
+    }
+
+        .MGD_GridView tr:hover {
+            background-color: #d1e7fc;
+        }
+
+    .MGD_GridView .alt {
+        border: none;
+        background-color: #FFF;
+        vertical-align: central;
+        height: 2em;
+    }
+
+    .MGD_GridView .link {
+        text-align: center;
+    }
+
+/* finaliza estilo de grid */
+
+
+.MGD_GridViewMed {
+    font: normal 1em Sans-Serif;
+    border: .1em .1em .1em .1em solid;
+}
+
+    .MGD_GridViewMed th {
+        font: normal 1em Sans-Serif;
+        border: none;
+        background-color: #737373;
+        color: #FFF;
+        height: 2em;
+    }
+
+        .MGD_GridViewMed th a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+            .MGD_GridViewMed th a:hover {
+                text-decoration: underline;
+            }
+
+
+
+    .MGD_GridViewMed tr {
+        font: normal .9em Sans-Serif;
+        border: none;
+        background-color: #F3F3F3;
+        vertical-align: central;
+        height: 2em;
+    }
+
+
+    .MGD_GridViewMed .alt {
+        border: none;
+        background-color: #FFF;
+        vertical-align: central;
+        height: 2em;
+    }
+
+    .MGD_GridViewMed tr:hover {
+        background-color: #d1e7fc;
+    }
+
+    .MGD_GridViewMed .link {
+        text-align: center;
+    }
+
+
+.w3-pie {
+    background-color: #F3F3F3;
+    color: #000;
+    text-align: center;
+    font-size: .8em;
+    padding: 15px;
+    display: inline-block;
+}
